@@ -1,0 +1,100 @@
+[20-Feb-2022 18:10:54 UTC] PHP Warning:  touch(): Unable to create file C:/Users/Gerald/Local Sites/viaticum/app/public/wp-content/uploads/wpforms/.htaccess because No such file or directory in C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\includes\misc.php on line 115
+[20-Feb-2022 18:10:54 UTC] PHP Stack trace:
+[20-Feb-2022 18:10:54 UTC] PHP   1. {main}() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\admin.php:0
+[20-Feb-2022 18:10:54 UTC] PHP   2. require_once() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\admin.php:239
+[20-Feb-2022 18:10:54 UTC] PHP   3. do_action() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\admin-header.php:118
+[20-Feb-2022 18:10:54 UTC] PHP   4. WP_Hook->do_action() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\plugin.php:474
+[20-Feb-2022 18:10:54 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\class-wp-hook.php:331
+[20-Feb-2022 18:10:54 UTC] PHP   6. WPForms_Builder->enqueues() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\class-wp-hook.php:307
+[20-Feb-2022 18:10:54 UTC] PHP   7. do_action() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-content\plugins\wpforms-lite\includes\admin\builder\class-builder.php:461
+[20-Feb-2022 18:10:54 UTC] PHP   8. WP_Hook->do_action() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\plugin.php:474
+[20-Feb-2022 18:10:54 UTC] PHP   9. WP_Hook->apply_filters() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\class-wp-hook.php:331
+[20-Feb-2022 18:10:54 UTC] PHP  10. WPForms\Admin\Builder\Help->enqueues() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\class-wp-hook.php:307
+[20-Feb-2022 18:10:54 UTC] PHP  11. WPForms\Admin\Builder\Help->get_localized_data() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-content\plugins\wpforms-lite\src\Admin\Builder\Help.php:117
+[20-Feb-2022 18:10:54 UTC] PHP  12. WPForms\Admin\Builder\Help->get_docs() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-content\plugins\wpforms-lite\src\Admin\Builder\Help.php:131
+[20-Feb-2022 18:10:54 UTC] PHP  13. WPForms\Admin\Builder\Help->update_docs() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-content\plugins\wpforms-lite\src\Admin\Builder\Help.php:161
+[20-Feb-2022 18:10:54 UTC] PHP  14. wpforms_create_upload_dir_htaccess_file() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-content\plugins\wpforms-lite\src\Admin\Builder\Help.php:201
+[20-Feb-2022 18:10:54 UTC] PHP  15. insert_with_markers() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-content\plugins\wpforms-lite\includes\functions.php:2819
+[20-Feb-2022 18:10:54 UTC] PHP  16. touch() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\includes\misc.php:115
+[20-Feb-2022 18:10:54 UTC] PHP Warning:  file_put_contents(C:/Users/Gerald/Local Sites/viaticum/app/public/wp-content/uploads/wpforms/cache/docs.json): failed to open stream: No such file or directory in C:\Users\Gerald\Local Sites\viaticum\app\public\wp-content\plugins\wpforms-lite\src\Admin\Builder\Help.php on line 211
+[20-Feb-2022 18:10:54 UTC] PHP Stack trace:
+[20-Feb-2022 18:10:54 UTC] PHP   1. {main}() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\admin.php:0
+[20-Feb-2022 18:10:54 UTC] PHP   2. require_once() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\admin.php:239
+[20-Feb-2022 18:10:54 UTC] PHP   3. do_action() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\admin-header.php:118
+[20-Feb-2022 18:10:54 UTC] PHP   4. WP_Hook->do_action() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\plugin.php:474
+[20-Feb-2022 18:10:54 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\class-wp-hook.php:331
+[20-Feb-2022 18:10:54 UTC] PHP   6. WPForms_Builder->enqueues() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\class-wp-hook.php:307
+[20-Feb-2022 18:10:54 UTC] PHP   7. do_action() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-content\plugins\wpforms-lite\includes\admin\builder\class-builder.php:461
+[20-Feb-2022 18:10:54 UTC] PHP   8. WP_Hook->do_action() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\plugin.php:474
+[20-Feb-2022 18:10:54 UTC] PHP   9. WP_Hook->apply_filters() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\class-wp-hook.php:331
+[20-Feb-2022 18:10:54 UTC] PHP  10. WPForms\Admin\Builder\Help->enqueues() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\class-wp-hook.php:307
+[20-Feb-2022 18:10:54 UTC] PHP  11. WPForms\Admin\Builder\Help->get_localized_data() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-content\plugins\wpforms-lite\src\Admin\Builder\Help.php:117
+[20-Feb-2022 18:10:54 UTC] PHP  12. WPForms\Admin\Builder\Help->get_docs() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-content\plugins\wpforms-lite\src\Admin\Builder\Help.php:131
+[20-Feb-2022 18:10:54 UTC] PHP  13. WPForms\Admin\Builder\Help->update_docs() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-content\plugins\wpforms-lite\src\Admin\Builder\Help.php:161
+[20-Feb-2022 18:10:54 UTC] PHP  14. file_put_contents() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-content\plugins\wpforms-lite\src\Admin\Builder\Help.php:211
+[20-Feb-2022 18:11:26 UTC] PHP Warning:  touch(): Unable to create file C:/Users/Gerald/Local Sites/viaticum/app/public/wp-content/uploads/wpforms/.htaccess because No such file or directory in C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\includes\misc.php on line 115
+[20-Feb-2022 18:11:26 UTC] PHP Stack trace:
+[20-Feb-2022 18:11:26 UTC] PHP   1. {main}() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\admin.php:0
+[20-Feb-2022 18:11:26 UTC] PHP   2. require_once() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\admin.php:239
+[20-Feb-2022 18:11:26 UTC] PHP   3. do_action() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\admin-header.php:118
+[20-Feb-2022 18:11:26 UTC] PHP   4. WP_Hook->do_action() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\plugin.php:474
+[20-Feb-2022 18:11:26 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\class-wp-hook.php:331
+[20-Feb-2022 18:11:26 UTC] PHP   6. WPForms_Builder->enqueues() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\class-wp-hook.php:307
+[20-Feb-2022 18:11:26 UTC] PHP   7. do_action() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-content\plugins\wpforms-lite\includes\admin\builder\class-builder.php:461
+[20-Feb-2022 18:11:26 UTC] PHP   8. WP_Hook->do_action() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\plugin.php:474
+[20-Feb-2022 18:11:26 UTC] PHP   9. WP_Hook->apply_filters() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\class-wp-hook.php:331
+[20-Feb-2022 18:11:26 UTC] PHP  10. WPForms\Admin\Builder\Help->enqueues() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\class-wp-hook.php:307
+[20-Feb-2022 18:11:26 UTC] PHP  11. WPForms\Admin\Builder\Help->get_localized_data() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-content\plugins\wpforms-lite\src\Admin\Builder\Help.php:117
+[20-Feb-2022 18:11:26 UTC] PHP  12. WPForms\Admin\Builder\Help->get_docs() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-content\plugins\wpforms-lite\src\Admin\Builder\Help.php:131
+[20-Feb-2022 18:11:26 UTC] PHP  13. WPForms\Admin\Builder\Help->update_docs() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-content\plugins\wpforms-lite\src\Admin\Builder\Help.php:161
+[20-Feb-2022 18:11:26 UTC] PHP  14. wpforms_create_upload_dir_htaccess_file() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-content\plugins\wpforms-lite\src\Admin\Builder\Help.php:201
+[20-Feb-2022 18:11:26 UTC] PHP  15. insert_with_markers() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-content\plugins\wpforms-lite\includes\functions.php:2819
+[20-Feb-2022 18:11:26 UTC] PHP  16. touch() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\includes\misc.php:115
+[20-Feb-2022 18:11:26 UTC] PHP Warning:  file_put_contents(C:/Users/Gerald/Local Sites/viaticum/app/public/wp-content/uploads/wpforms/cache/docs.json): failed to open stream: No such file or directory in C:\Users\Gerald\Local Sites\viaticum\app\public\wp-content\plugins\wpforms-lite\src\Admin\Builder\Help.php on line 211
+[20-Feb-2022 18:11:26 UTC] PHP Stack trace:
+[20-Feb-2022 18:11:26 UTC] PHP   1. {main}() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\admin.php:0
+[20-Feb-2022 18:11:26 UTC] PHP   2. require_once() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\admin.php:239
+[20-Feb-2022 18:11:26 UTC] PHP   3. do_action() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\admin-header.php:118
+[20-Feb-2022 18:11:26 UTC] PHP   4. WP_Hook->do_action() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\plugin.php:474
+[20-Feb-2022 18:11:26 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\class-wp-hook.php:331
+[20-Feb-2022 18:11:26 UTC] PHP   6. WPForms_Builder->enqueues() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\class-wp-hook.php:307
+[20-Feb-2022 18:11:26 UTC] PHP   7. do_action() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-content\plugins\wpforms-lite\includes\admin\builder\class-builder.php:461
+[20-Feb-2022 18:11:26 UTC] PHP   8. WP_Hook->do_action() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\plugin.php:474
+[20-Feb-2022 18:11:26 UTC] PHP   9. WP_Hook->apply_filters() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\class-wp-hook.php:331
+[20-Feb-2022 18:11:26 UTC] PHP  10. WPForms\Admin\Builder\Help->enqueues() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\class-wp-hook.php:307
+[20-Feb-2022 18:11:26 UTC] PHP  11. WPForms\Admin\Builder\Help->get_localized_data() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-content\plugins\wpforms-lite\src\Admin\Builder\Help.php:117
+[20-Feb-2022 18:11:26 UTC] PHP  12. WPForms\Admin\Builder\Help->get_docs() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-content\plugins\wpforms-lite\src\Admin\Builder\Help.php:131
+[20-Feb-2022 18:11:26 UTC] PHP  13. WPForms\Admin\Builder\Help->update_docs() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-content\plugins\wpforms-lite\src\Admin\Builder\Help.php:161
+[20-Feb-2022 18:11:26 UTC] PHP  14. file_put_contents() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-content\plugins\wpforms-lite\src\Admin\Builder\Help.php:211
+[25-Feb-2022 15:10:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\network\menu.php:11
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\network\menu.php on line 11
+[25-Feb-2022 15:10:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\user\menu.php:10
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\user\menu.php on line 10
+[25-Feb-2022 15:22:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\network\menu.php:11
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\network\menu.php on line 11
+[25-Feb-2022 15:23:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\user\menu.php:10
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\user\menu.php on line 10
+[25-Feb-2022 15:26:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\network\menu.php:11
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\network\menu.php on line 11
+[25-Feb-2022 15:27:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\user\menu.php:10
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\user\menu.php on line 10
+[25-Feb-2022 15:28:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\network\menu.php:11
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\network\menu.php on line 11
+[25-Feb-2022 15:29:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\user\menu.php:10
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\user\menu.php on line 10
