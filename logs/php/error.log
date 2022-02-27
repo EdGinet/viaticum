@@ -98,3 +98,156 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\user\menu.php on line 10
+[27-Feb-2022 13:18:00 UTC] PHP Warning:  fileperms(): stat failed for C:\Users\Gerald\Local Sites\viaticum\app\public/index.php in C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\includes\file.php on line 2026
+[27-Feb-2022 13:18:00 UTC] PHP Stack trace:
+[27-Feb-2022 13:18:00 UTC] PHP   1. {main}() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\index.php:0
+[27-Feb-2022 13:18:00 UTC] PHP   2. require_once() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\index.php:10
+[27-Feb-2022 13:18:00 UTC] PHP   3. require_once() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\admin.php:34
+[27-Feb-2022 13:18:00 UTC] PHP   4. require_once() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-load.php:50
+[27-Feb-2022 13:18:00 UTC] PHP   5. require_once() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-config.php:110
+[27-Feb-2022 13:18:00 UTC] PHP   6. do_action() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-settings.php:450
+[27-Feb-2022 13:18:00 UTC] PHP   7. WP_Hook->do_action() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\plugin.php:474
+[27-Feb-2022 13:18:00 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\class-wp-hook.php:331
+[27-Feb-2022 13:18:00 UTC] PHP   9. WPForms\WPForms->objects() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\class-wp-hook.php:307
+[27-Feb-2022 13:18:00 UTC] PHP  10. do_action() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-content\plugins\wpforms-lite\src\WPForms.php:277
+[27-Feb-2022 13:18:00 UTC] PHP  11. WP_Hook->do_action() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\plugin.php:474
+[27-Feb-2022 13:18:00 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\class-wp-hook.php:331
+[27-Feb-2022 13:18:00 UTC] PHP  13. WPForms\Integrations\Loader::get_instance() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\class-wp-hook.php:307
+[27-Feb-2022 13:18:00 UTC] PHP  14. WPForms\Integrations\Loader->__construct() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-content\plugins\wpforms-lite\src\Integrations\Loader.php:22
+[27-Feb-2022 13:18:00 UTC] PHP  15. WPForms\Integrations\Loader->load_integration() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-content\plugins\wpforms-lite\src\Integrations\Loader.php:54
+[27-Feb-2022 13:18:00 UTC] PHP  16. WPForms\Integrations\WPorg\Translations->allow_load() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-content\plugins\wpforms-lite\src\Integrations\Loader.php:68
+[27-Feb-2022 13:18:00 UTC] PHP  17. wp_can_install_language_pack() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-content\plugins\wpforms-lite\src\Integrations\WPorg\Translations.php:46
+[27-Feb-2022 13:18:00 UTC] PHP  18. Language_Pack_Upgrader->fs_connect() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\includes\translation-install.php:270
+[27-Feb-2022 13:18:00 UTC] PHP  19. WP_Filesystem() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\includes\class-wp-upgrader.php:193
+[27-Feb-2022 13:18:00 UTC] PHP  20. fileperms() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\includes\file.php:2026
+[27-Feb-2022 13:18:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\includes\file.php:2026) in C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\functions.php on line 6821
+[27-Feb-2022 13:18:06 UTC] PHP Stack trace:
+[27-Feb-2022 13:18:06 UTC] PHP   1. {main}() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\index.php:0
+[27-Feb-2022 13:18:06 UTC] PHP   2. require_once() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\index.php:10
+[27-Feb-2022 13:18:06 UTC] PHP   3. do_action() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\admin.php:175
+[27-Feb-2022 13:18:06 UTC] PHP   4. WP_Hook->do_action() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\plugin.php:474
+[27-Feb-2022 13:18:06 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\class-wp-hook.php:331
+[27-Feb-2022 13:18:06 UTC] PHP   6. send_frame_options_header() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\class-wp-hook.php:305
+[27-Feb-2022 13:18:06 UTC] PHP   7. header() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\functions.php:6821
+[27-Feb-2022 13:18:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\includes\file.php:2026) in C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\includes\misc.php on line 1310
+[27-Feb-2022 13:18:10 UTC] PHP Stack trace:
+[27-Feb-2022 13:18:10 UTC] PHP   1. {main}() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\index.php:0
+[27-Feb-2022 13:18:10 UTC] PHP   2. require_once() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\index.php:10
+[27-Feb-2022 13:18:10 UTC] PHP   3. do_action() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\admin.php:175
+[27-Feb-2022 13:18:10 UTC] PHP   4. WP_Hook->do_action() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\plugin.php:474
+[27-Feb-2022 13:18:10 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\class-wp-hook.php:331
+[27-Feb-2022 13:18:10 UTC] PHP   6. wp_admin_headers() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\class-wp-hook.php:307
+[27-Feb-2022 13:18:10 UTC] PHP   7. header() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\includes\misc.php:1310
+[27-Feb-2022 13:18:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\includes\file.php:2026) in C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\admin-header.php on line 9
+[27-Feb-2022 13:18:10 UTC] PHP Stack trace:
+[27-Feb-2022 13:18:10 UTC] PHP   1. {main}() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\index.php:0
+[27-Feb-2022 13:18:10 UTC] PHP   2. require_once() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\index.php:137
+[27-Feb-2022 13:18:10 UTC] PHP   3. header() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\admin-header.php:9
+[27-Feb-2022 13:18:19 UTC] PHP Warning:  fileperms(): stat failed for C:\Users\Gerald\Local Sites\viaticum\app\public/index.php in C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\includes\file.php on line 2026
+[27-Feb-2022 13:18:19 UTC] PHP Stack trace:
+[27-Feb-2022 13:18:19 UTC] PHP   1. {main}() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\admin-ajax.php:0
+[27-Feb-2022 13:18:19 UTC] PHP   2. require_once() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\admin-ajax.php:22
+[27-Feb-2022 13:18:19 UTC] PHP   3. require_once() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-load.php:50
+[27-Feb-2022 13:18:19 UTC] PHP   4. require_once() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-config.php:110
+[27-Feb-2022 13:18:19 UTC] PHP   5. do_action() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-settings.php:450
+[27-Feb-2022 13:18:19 UTC] PHP   6. WP_Hook->do_action() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\plugin.php:474
+[27-Feb-2022 13:18:19 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\class-wp-hook.php:331
+[27-Feb-2022 13:18:19 UTC] PHP   8. WPForms\WPForms->objects() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\class-wp-hook.php:307
+[27-Feb-2022 13:18:19 UTC] PHP   9. do_action() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-content\plugins\wpforms-lite\src\WPForms.php:277
+[27-Feb-2022 13:18:19 UTC] PHP  10. WP_Hook->do_action() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\plugin.php:474
+[27-Feb-2022 13:18:19 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\class-wp-hook.php:331
+[27-Feb-2022 13:18:19 UTC] PHP  12. WPForms\Integrations\Loader::get_instance() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\class-wp-hook.php:307
+[27-Feb-2022 13:18:19 UTC] PHP  13. WPForms\Integrations\Loader->__construct() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-content\plugins\wpforms-lite\src\Integrations\Loader.php:22
+[27-Feb-2022 13:18:19 UTC] PHP  14. WPForms\Integrations\Loader->load_integration() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-content\plugins\wpforms-lite\src\Integrations\Loader.php:54
+[27-Feb-2022 13:18:19 UTC] PHP  15. WPForms\Integrations\WPorg\Translations->allow_load() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-content\plugins\wpforms-lite\src\Integrations\Loader.php:68
+[27-Feb-2022 13:18:19 UTC] PHP  16. wp_can_install_language_pack() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-content\plugins\wpforms-lite\src\Integrations\WPorg\Translations.php:46
+[27-Feb-2022 13:18:19 UTC] PHP  17. Language_Pack_Upgrader->fs_connect() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\includes\translation-install.php:270
+[27-Feb-2022 13:18:19 UTC] PHP  18. WP_Filesystem() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\includes\class-wp-upgrader.php:193
+[27-Feb-2022 13:18:19 UTC] PHP  19. fileperms() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\includes\file.php:2026
+[27-Feb-2022 13:18:19 UTC] PHP Warning:  fileperms(): stat failed for C:\Users\Gerald\Local Sites\viaticum\app\public/index.php in C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\includes\file.php on line 2026
+[27-Feb-2022 13:18:19 UTC] PHP Stack trace:
+[27-Feb-2022 13:18:19 UTC] PHP   1. {main}() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\admin-ajax.php:0
+[27-Feb-2022 13:18:19 UTC] PHP   2. require_once() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\admin-ajax.php:22
+[27-Feb-2022 13:18:19 UTC] PHP   3. require_once() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-load.php:50
+[27-Feb-2022 13:18:19 UTC] PHP   4. require_once() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-config.php:110
+[27-Feb-2022 13:18:19 UTC] PHP   5. do_action() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-settings.php:450
+[27-Feb-2022 13:18:19 UTC] PHP   6. WP_Hook->do_action() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\plugin.php:474
+[27-Feb-2022 13:18:19 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\class-wp-hook.php:331
+[27-Feb-2022 13:18:19 UTC] PHP   8. WPForms\WPForms->objects() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\class-wp-hook.php:307
+[27-Feb-2022 13:18:19 UTC] PHP   9. do_action() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-content\plugins\wpforms-lite\src\WPForms.php:277
+[27-Feb-2022 13:18:19 UTC] PHP  10. WP_Hook->do_action() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\plugin.php:474
+[27-Feb-2022 13:18:19 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\class-wp-hook.php:331
+[27-Feb-2022 13:18:19 UTC] PHP  12. WPForms\Integrations\Loader::get_instance() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\class-wp-hook.php:307
+[27-Feb-2022 13:18:19 UTC] PHP  13. WPForms\Integrations\Loader->__construct() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-content\plugins\wpforms-lite\src\Integrations\Loader.php:22
+[27-Feb-2022 13:18:19 UTC] PHP  14. WPForms\Integrations\Loader->load_integration() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-content\plugins\wpforms-lite\src\Integrations\Loader.php:54
+[27-Feb-2022 13:18:19 UTC] PHP  15. WPForms\Integrations\WPorg\Translations->allow_load() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-content\plugins\wpforms-lite\src\Integrations\Loader.php:68
+[27-Feb-2022 13:18:19 UTC] PHP  16. wp_can_install_language_pack() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-content\plugins\wpforms-lite\src\Integrations\WPorg\Translations.php:46
+[27-Feb-2022 13:18:19 UTC] PHP  17. Language_Pack_Upgrader->fs_connect() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\includes\translation-install.php:270
+[27-Feb-2022 13:18:19 UTC] PHP  18. WP_Filesystem() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\includes\class-wp-upgrader.php:193
+[27-Feb-2022 13:18:19 UTC] PHP  19. fileperms() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\includes\file.php:2026
+[27-Feb-2022 13:18:22 UTC] PHP Warning:  fileperms(): stat failed for C:\Users\Gerald\Local Sites\viaticum\app\public/index.php in C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\includes\file.php on line 2026
+[27-Feb-2022 13:18:22 UTC] PHP Stack trace:
+[27-Feb-2022 13:18:22 UTC] PHP   1. {main}() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\admin-ajax.php:0
+[27-Feb-2022 13:18:22 UTC] PHP   2. require_once() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\admin-ajax.php:22
+[27-Feb-2022 13:18:22 UTC] PHP   3. require_once() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-load.php:50
+[27-Feb-2022 13:18:22 UTC] PHP   4. require_once() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-config.php:110
+[27-Feb-2022 13:18:22 UTC] PHP   5. do_action() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-settings.php:450
+[27-Feb-2022 13:18:22 UTC] PHP   6. WP_Hook->do_action() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\plugin.php:474
+[27-Feb-2022 13:18:22 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\class-wp-hook.php:331
+[27-Feb-2022 13:18:22 UTC] PHP   8. WPForms\WPForms->objects() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\class-wp-hook.php:307
+[27-Feb-2022 13:18:22 UTC] PHP   9. do_action() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-content\plugins\wpforms-lite\src\WPForms.php:277
+[27-Feb-2022 13:18:22 UTC] PHP  10. WP_Hook->do_action() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\plugin.php:474
+[27-Feb-2022 13:18:22 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\class-wp-hook.php:331
+[27-Feb-2022 13:18:22 UTC] PHP  12. WPForms\Integrations\Loader::get_instance() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\class-wp-hook.php:307
+[27-Feb-2022 13:18:22 UTC] PHP  13. WPForms\Integrations\Loader->__construct() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-content\plugins\wpforms-lite\src\Integrations\Loader.php:22
+[27-Feb-2022 13:18:22 UTC] PHP  14. WPForms\Integrations\Loader->load_integration() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-content\plugins\wpforms-lite\src\Integrations\Loader.php:54
+[27-Feb-2022 13:18:22 UTC] PHP  15. WPForms\Integrations\WPorg\Translations->allow_load() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-content\plugins\wpforms-lite\src\Integrations\Loader.php:68
+[27-Feb-2022 13:18:22 UTC] PHP  16. wp_can_install_language_pack() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-content\plugins\wpforms-lite\src\Integrations\WPorg\Translations.php:46
+[27-Feb-2022 13:18:22 UTC] PHP  17. Language_Pack_Upgrader->fs_connect() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\includes\translation-install.php:270
+[27-Feb-2022 13:18:22 UTC] PHP  18. WP_Filesystem() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\includes\class-wp-upgrader.php:193
+[27-Feb-2022 13:18:22 UTC] PHP  19. fileperms() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\includes\file.php:2026
+[27-Feb-2022 13:18:25 UTC] PHP Warning:  fileperms(): stat failed for C:\Users\Gerald\Local Sites\viaticum\app\public/index.php in C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\includes\file.php on line 2026
+[27-Feb-2022 13:18:25 UTC] PHP Stack trace:
+[27-Feb-2022 13:18:25 UTC] PHP   1. {main}() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\about.php:0
+[27-Feb-2022 13:18:25 UTC] PHP   2. require_once() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\about.php:10
+[27-Feb-2022 13:18:25 UTC] PHP   3. require_once() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\admin.php:34
+[27-Feb-2022 13:18:25 UTC] PHP   4. require_once() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-load.php:50
+[27-Feb-2022 13:18:25 UTC] PHP   5. require_once() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-config.php:110
+[27-Feb-2022 13:18:25 UTC] PHP   6. do_action() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-settings.php:450
+[27-Feb-2022 13:18:25 UTC] PHP   7. WP_Hook->do_action() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\plugin.php:474
+[27-Feb-2022 13:18:25 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\class-wp-hook.php:331
+[27-Feb-2022 13:18:25 UTC] PHP   9. WPForms\WPForms->objects() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\class-wp-hook.php:307
+[27-Feb-2022 13:18:25 UTC] PHP  10. do_action() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-content\plugins\wpforms-lite\src\WPForms.php:277
+[27-Feb-2022 13:18:25 UTC] PHP  11. WP_Hook->do_action() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\plugin.php:474
+[27-Feb-2022 13:18:25 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\class-wp-hook.php:331
+[27-Feb-2022 13:18:25 UTC] PHP  13. WPForms\Integrations\Loader::get_instance() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\class-wp-hook.php:307
+[27-Feb-2022 13:18:25 UTC] PHP  14. WPForms\Integrations\Loader->__construct() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-content\plugins\wpforms-lite\src\Integrations\Loader.php:22
+[27-Feb-2022 13:18:25 UTC] PHP  15. WPForms\Integrations\Loader->load_integration() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-content\plugins\wpforms-lite\src\Integrations\Loader.php:54
+[27-Feb-2022 13:18:25 UTC] PHP  16. WPForms\Integrations\WPorg\Translations->allow_load() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-content\plugins\wpforms-lite\src\Integrations\Loader.php:68
+[27-Feb-2022 13:18:25 UTC] PHP  17. wp_can_install_language_pack() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-content\plugins\wpforms-lite\src\Integrations\WPorg\Translations.php:46
+[27-Feb-2022 13:18:25 UTC] PHP  18. Language_Pack_Upgrader->fs_connect() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\includes\translation-install.php:270
+[27-Feb-2022 13:18:25 UTC] PHP  19. WP_Filesystem() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\includes\class-wp-upgrader.php:193
+[27-Feb-2022 13:18:25 UTC] PHP  20. fileperms() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\includes\file.php:2026
+[27-Feb-2022 13:18:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\includes\file.php:2026) in C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\functions.php on line 6821
+[27-Feb-2022 13:18:27 UTC] PHP Stack trace:
+[27-Feb-2022 13:18:27 UTC] PHP   1. {main}() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\about.php:0
+[27-Feb-2022 13:18:27 UTC] PHP   2. require_once() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\about.php:10
+[27-Feb-2022 13:18:27 UTC] PHP   3. do_action() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\admin.php:175
+[27-Feb-2022 13:18:27 UTC] PHP   4. WP_Hook->do_action() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\plugin.php:474
+[27-Feb-2022 13:18:27 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\class-wp-hook.php:331
+[27-Feb-2022 13:18:27 UTC] PHP   6. send_frame_options_header() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\class-wp-hook.php:305
+[27-Feb-2022 13:18:27 UTC] PHP   7. header() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\functions.php:6821
+[27-Feb-2022 13:18:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\includes\file.php:2026) in C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\includes\misc.php on line 1310
+[27-Feb-2022 13:18:27 UTC] PHP Stack trace:
+[27-Feb-2022 13:18:27 UTC] PHP   1. {main}() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\about.php:0
+[27-Feb-2022 13:18:27 UTC] PHP   2. require_once() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\about.php:10
+[27-Feb-2022 13:18:27 UTC] PHP   3. do_action() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\admin.php:175
+[27-Feb-2022 13:18:27 UTC] PHP   4. WP_Hook->do_action() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\plugin.php:474
+[27-Feb-2022 13:18:27 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\class-wp-hook.php:331
+[27-Feb-2022 13:18:27 UTC] PHP   6. wp_admin_headers() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-includes\class-wp-hook.php:307
+[27-Feb-2022 13:18:27 UTC] PHP   7. header() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\includes\misc.php:1310
+[27-Feb-2022 13:18:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\includes\file.php:2026) in C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\admin-header.php on line 9
+[27-Feb-2022 13:18:27 UTC] PHP Stack trace:
+[27-Feb-2022 13:18:27 UTC] PHP   1. {main}() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\about.php:0
+[27-Feb-2022 13:18:27 UTC] PHP   2. require_once() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\about.php:18
+[27-Feb-2022 13:18:27 UTC] PHP   3. header() C:\Users\Gerald\Local Sites\viaticum\app\public\wp-admin\admin-header.php:9
