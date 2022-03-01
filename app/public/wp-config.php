@@ -49,19 +49,20 @@ define( 'ALLOW_UNFILTERED_UPLOADS', false );
  *
  * @package WordPress
  */
+// mysql://b6db1b3eafffdd:bd206ce7@us-cdbr-east-05.cleardb.net/heroku_bbfd78ffd291116?reconnect=true
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'local' );
+define( 'DB_NAME', 'heroku_bbfd78ffd291116' );
 
 /** MySQL database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'b6db1b3eafffdd' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'root' );
+define( 'DB_PASSWORD', 'bd206ce7' );
 
 /** MySQL hostname */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', 'us-cdbr-east-05.cleardb.net' );
 
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
